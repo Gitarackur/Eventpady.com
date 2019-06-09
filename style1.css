@@ -1,0 +1,893 @@
+@media only screen and (min-width: 600px){
+	
+* {
+    padding : 0;
+    margin : 0;
+	box-sizing: border-box;
+	}
+
+body {
+  background : white;
+  color : black;
+	width:100%;
+	font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+	line-height: 30px;
+	font-size: 18px;
+	margin:0%;
+	padding:0%;
+	box-sizing: border-box;
+	}
+	
+h1 {
+	text-shadow:1.5px -1.2px 0px rgb(29, 28, 28);
+	font-size:35px;
+	font-weight:bolder;
+	text-transform: uppercase;
+}	
+
+#grid1{
+	display: flex;
+	width:100%;
+	padding-bottom:50px;
+	}
+
+#EventpadyHeader{
+	width:25%;
+	}
+	
+.EventpadyToggle{
+	display:none;
+	}
+	
+.fa-bars{
+	display: none; /* not working*/
+	}
+	
+#dropdownMenu{
+	display: none;
+	}
+	
+.EventpadyLogo{
+	width:100%;
+	padding-top:30px;
+	}
+	
+.EventpadyLogo img{
+	width:60%;
+	height:50px;
+	margin-left:10%;
+	}
+
+#EventpadyNavBar{
+	width:75%;
+	padding-top:50px;
+		}
+
+.navLink1{
+	width:20%;
+	text-decoration: none;
+	color: grey;
+	margin:2%;
+	height:50px;
+	}
+
+.navLink2{
+	width:20%;
+	text-decoration: none;
+	color: grey;
+	margin:2%;
+	height:50px;
+	}
+
+.navLink{
+	width:20%;
+	text-decoration: none;
+	color: grey;
+	margin:2%;
+	height:50px;
+	}
+	
+.logIn{
+	position: absolute;
+	top:44px;
+	right:2%;
+	width:6.5%;
+	text-decoration: none;
+	background-color: purple;
+	color: white;
+	text-align: center;
+	margin-right: 2%;
+	border-radius:5px;
+	padding:5px;
+	z-index: 100;
+	font-weight: bold;
+	}
+	
+	
+#grid2{
+	display: flex;
+	width:100%;
+	padding-bottom:50px;
+	}
+	
+#EventpadyImagee{
+	width:45%;
+	}
+	
+#EventpadyImagee img{
+	width:100%;
+	height:500px;
+	}
+
+#TextTotality{
+	width:55%;
+	padding-top:100px;
+	padding-left:3%;
+	}
+
+.EventpadyMainText{
+	width:100%;
+	padding-bottom:50px;
+	text-transform:capitalize;
+	}
+	
+.EventpadySubText{
+	width:100%;
+	text-align: justify;
+	padding-bottom:20px;
+	line-height: 40px;
+	}
+	
+.CreatEvent{
+	width: 33%;
+	padding-top:13px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color:#E03030;
+	color: white;
+	box-shadow:0px 5px 10px grey;
+	display: inline-block;
+	margin-right: 6%;
+	margin-top:50px;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+	}
+	
+.LearnMore{
+	width: 33%;
+	padding-top:13px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color:#681870;
+	color: white;
+	box-shadow:0px 5px 10px grey;
+	display: inline-block;
+	margin-top:50px;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+	}
+
+#grid3{
+	display: flex;
+	width:100%;
+	padding-bottom:50px;
+	}
+
+#EventpadyBodyPic{
+	width:50%;
+	}
+
+#EventpadyBodyPic img{
+	width:100%;
+	height:470px;
+}
+
+#EventpadyBodyText{
+	width:50%;
+	height:470px;
+	padding-left:1.8%;
+	font-size: 16px;
+	line-height: 25px;
+	overflow: hidden;
+	background-image:linear-gradient(to right,#980858, #B00060, #D81840);
+	text-align:left;
+}
+#EventpadyBodyText h1 {
+	margin:30px 0px;
+}
+#EventpadyBodyText h2 {
+	color:white;
+	margin:30px 0px;
+	padding-bottom: 15px;
+	font-weight: normal;
+}
+.firstheading{
+	width:95%;
+		color: white;
+	text-align:justify;
+	padding-bottom:5px;
+	}
+	
+.mainheading{
+	width:95%;
+	color: white;
+	text-align: justify;
+	padding-bottom:5px;
+	text-transform: capitalize;
+	}
+	
+.WordsAboutEventPady{
+	width:95%;
+	color: white;
+	text-align: justify;
+	}
+
+.learnMore{
+	background-color:rgb(37, 36, 36);
+	color: white;
+	width:30%;
+	height: 60px;
+	font-weight: bold;
+	padding:15px;
+	border-radius: 4px;
+	font-size: 20px;
+	text-align: center;
+	box-shadow:0px 5px 10px 5px rgba(5,5,5,0.3);
+	margin-top: 20px;
+	display: block;
+	text-decoration: none;
+	}
+	
+	
+
+
+.findanEvent{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align: center;
+	}
+	
+#grid4{
+	display: flex;
+	width:100%;
+	}
+
+#FindEvent{
+	width:50%;
+	}
+
+#side{
+	width:100%;
+	position: relative;
+	top:0px;
+	}
+	
+#side img{
+	width: 100%;
+	height: 500px;
+	}
+
+#FooormTotal{
+	width:50%;
+	position: relative;
+	top:0px;
+	margin-bottom:100px;
+	}
+	
+#picture1{
+	position: absolute;
+	top:0px;
+	left:0px;
+	background: linear-gradient(#980858, #B00060, #D81840); 
+	color: white;
+	clip-path: circle(50% at 50% 50%);
+	height:450px;
+	width:100%;
+	z-index:-1;
+	}
+
+#FindeventForm{
+	position: relative;
+	top: 20px;
+	box-shadow: 0px 5px 10px 5px rgba(2,2,2,0.3);
+	background-color: white;
+	display: block;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0px;
+	padding:30px;
+	}
+	
+.loc, .loc1, .interet{
+	width:80%;
+	color: grey;
+	margin-left:10%;
+	margin-right:10%;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	}
+	
+.input1, .input2{
+	width:80%;
+	height:40px;
+	margin-top:10px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10px;
+	cursor: pointer;
+	}
+	
+.fa-search{
+	position: absolute;
+	top:100px;
+	right:22%;
+}
+
+.fa-map-marker-alt{
+	position: absolute;
+	top:210px;
+	right:22%;
+}
+	
+#select{
+	display: block;
+	width:80%;
+	height:30px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:white;
+	}
+	
+.searchButton{
+	background: linear-gradient( to right,#980858, #B00060, #D81840);
+	color: white;
+	border:0px;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	box-shadow:0px 5px 10px grey;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding:20px;
+	display: block;
+	text-decoration: none;
+	}
+	
+		
+.RecentEvent{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align: center;
+	}
+	
+#grid5{
+	display: flex;
+	}
+	
+#CreativConnect{
+	width:22%;
+	margin:3%;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	}
+	
+#CreativConnectImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1559160751_ccevent.jpg");
+	width:100%;
+	height:150px;
+	background-size: cover;
+}
+	
+.CreativeConnect{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.CreativconnLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+
+#register{
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:1%;
+	padding-right:1%;
+	background:#E03030;
+	color: white;
+	text-align: center;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:0px 5px 10px grey;
+	appearance: button;
+	display: block;
+	text-decoration: none;
+	font-size:15px;
+	}
+	
+#register:hover{
+	box-shadow:0px -5px -10px grey;
+	}
+	
+
+	
+#dateInd{
+	width:40%;
+	background:#E03030;
+	color: white;
+	border-radius:5px 5px 5px 5px;
+	padding:0px;
+	text-align: center;
+	position: relative;
+	top:110px;
+	font-size:10px;
+}
+	
+
+#UniportInvasion{
+	width:22%;
+	margin:3%;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	}
+	
+#UniportInvasionImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1552726156_1.jpg");
+	width:100%;
+	height:150px;
+	background-size: cover;
+}
+	
+.uniportInvasion{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.uniportInvasionLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+
+.uniportSpeech{
+	width:100%;
+	text-align: center;
+	line-height:15px;
+	font-size:12px;
+	margin-bottom:5px;
+}
+	
+	
+	
+#ComicAdventure{
+	width:22%;
+	margin:3%;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	}
+	
+#ComicAdventureImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1552520366_comic.jpg");
+	width:100%;
+	height:150px;
+	background-size: cover;
+}
+	
+.comicAdventure{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.ComicAdLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.comicSpeech{
+	width:100%;
+	line-height:15px;
+	font-size:12px;
+	text-align: center;
+	margin-bottom:5px;
+}
+
+#ForexTraf{
+	width:22%;
+	margin:3%;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	}
+	
+#ForexTrafImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1551306608_forex.jpg");
+	width:100%;
+	height:150px;
+	background-size: cover;
+}
+	
+.forexTrad{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.ForexTradLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.forexSpeech{
+	width:100%;
+	line-height:15px;
+	font-size:12px;
+	text-align: center;
+	margin-bottom:5px;
+}
+
+	
+#CoinFest{
+	width:19%;
+	margin:3%;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	}
+
+#CoinFestImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1551305081_coinfest.jpg");
+	background-size: cover;
+	width:100%;
+	height:150px;
+}
+	
+.coinFest{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.coinFestLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	text-align: center;
+	font-family: arial;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.coinSpeech{
+	width:100%;
+	line-height:15px;
+	font-size:12px;
+	text-align: center;
+	margin-bottom:5px;
+}
+	
+
+
+
+#grid6{
+	display: flex;
+	width:100%;
+	}
+	
+#CreateInMins1{
+	width:50%;
+	}
+	
+#CreateInMins{
+	background: linear-gradient( to right,#980858, #B00060, #D81840); 
+	width:50%;
+	height:100px;
+	}
+	
+.create{
+	width:100%;
+	color: white;
+	text-align: center;
+		margin-top:50px;
+}
+	
+.createBox{
+	border:3px solid white;
+	background-color: black;
+	color: white;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	text-align: center;
+	box-shadow:0px 5px 10px rgba(2,2,2,0.3);
+	padding:10px;
+	display: block;
+	text-decoration: none;
+	}
+	
+#SearchFavourite1{
+	width:50%;
+	}
+
+#SearchFavourite{
+	background: linear-gradient( to right,#980858, #B00060, #D81840); 
+	width:100%;
+	height:100px;
+	margin-top:50px;
+}
+	
+.FavEvent{
+	width:100%;
+	color: white;
+	text-align: center;
+	}
+	
+.FavEventBox{
+	border:3px solid white;
+	background-color: black;
+	color: white;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	text-align: center;
+		box-shadow:0px 5px 10px grey;
+	padding:10px;
+	display: block;
+	text-decoration: none;
+	}
+	
+#EventManager{
+	background-color:#E03030;
+	color: white;
+	width:100%;
+	padding-bottom:30px;
+	margin-top:20px;
+	text-align: center;
+		}
+	
+.eventManager{
+	width:100%;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-weight: bold;
+	font-size: 20px;
+	}
+	
+.eventManText{
+	width:100%;
+	text-align: center;
+	line-height:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+	
+.learnMoore{
+	background-color: white;
+	color:#E03030;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	box-shadow:0px 5px 10px rgba(2,2,2,0.3);
+	padding:10px;
+		display: block;
+	text-decoration: none;
+	}
+
+	
+
+	
+
+#grid7{
+	width:100%;
+	display: flex;
+}
+
+#footer{
+	width:33.3%;
+	background-color: black;
+	height:100px;
+}
+
+#footer img{
+	width:100%;
+	height: 50px;
+	margin-top: 30px;
+}
+
+
+
+
+
+#footerLinkImg{
+	width:33.4%;
+}
+
+.followus{
+	width:100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size:15px;
+	}
+
+.FollowUs{
+	width:100%;
+	background-color: black;
+	display: flex;
+	height:83px;
+}
+
+.fb{
+	width:33.3%;
+}
+
+.fa-facebook-f{
+	border-radius:50%;
+	background-color: blue;
+	color: white;
+	padding:10px;
+	margin-left:0%;
+	
+}
+
+.tw{
+	width:33.3%;
+}
+
+.fa-twitter{
+	border-radius:50%;
+	background-color: skyblue;
+	color: white;
+	padding:10px;
+	margin-left:35%;
+}
+
+.ig{
+	width:33.3%;	
+}
+
+.fa-instagram{
+	border-radius:50%;
+	background-color: #B00060;
+	color: white;
+	padding:10px;
+	margin-left:70%;
+}
+
+
+
+
+
+#Newsletter{
+	width:33.3%;
+	
+}
+
+.NewsLet{
+	width:100%;
+	color:white;
+	text-align: center;
+	background-color: black;	
+	font-size:15px;
+}
+
+#input{
+	position: relative;
+	padding-top:10px;
+	background-color: black;
+	height:83px;
+}
+
+.fa-envelope{
+	position: absolute;
+	top:22px;
+	right:23%;
+	display: inline;
+	color: white;
+}
+
+.newslet{
+	height:40px;
+	margin-left:20%;
+	margin-right:20%;
+	width:60%;
+	background-color: grey;
+	border:0px;
+	color: white;
+	cursor: pointer;
+}
+
+::placeholder{
+	color: white;
+	padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
