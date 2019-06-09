@@ -1,0 +1,894 @@
+@media only screen and (max-width: 600px){
+	
+* {
+  padding : 0;
+  margin : 0;
+	box-sizing: border-box;
+}
+
+body {
+    background : white;
+    color : black;
+	width:100%;
+	font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+	line-height: 30px;
+	font-size: 18px;
+	margin:0%;
+	padding:0%;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-shadow:1.5px -1.2px 0px rgb(29, 28, 28);
+	font-size:35px;
+	font-weight:bolder;
+	text-transform: uppercase;
+}	
+
+#EventpadyHeader{
+	display: flex;
+	width:100%;
+	background-color: white;
+	color: black;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	padding:20px;
+	}
+	
+.EventpadyToggle{
+	margin-top:0px;
+	width:20%;
+	}
+	
+.fa-bars{
+	color: black;
+	}
+	
+#dropdownMenu{
+	position: absolute;
+	top:90px;
+	display: none;
+	overflow: hidden;
+	width:60%;
+	box-shadow:1px 0px 0px 1px rgba(10,10,10,0.5);
+}
+
+#dropdownMenu ul {
+	width:100%;
+	
+}
+
+#dropdownMenu ul li{
+	width: 100%;
+	text-decoration: none;
+	background-color: white;
+	padding:10px;
+}
+
+#dropdownMenu a{
+	text-decoration: none;
+	color: grey;
+	padding:10px;
+	font-family: arial;
+}
+	
+#dropdownMenu a:hover{
+	text-decoration: underline;
+	}
+
+.EventpadyLogo{
+	width:50%;
+	height:50px;
+	background-image: url( "../images/Eventpady-logo-color.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	}
+	
+#EventpadyNavBar, #login, .EventpadyLogo img, #EventpadyImagee{
+	display: none;
+}
+	
+
+
+
+#EventpadyFirstImage{
+	width:80%;
+	height:300px;
+	background-image: url("../images/right.png");
+	background-size: cover;
+	margin-top: 50px;
+	margin-left:10%;
+	margin-right: 10%;
+	}
+	
+.EventpadyMainText{
+	width:100%;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	padding:10px;
+	text-transform: capitalize;
+	line-height: 50px;
+	}
+	
+.EventpadySubText{
+	width:100%;
+		text-align: center;
+	font-family: arial;
+	padding:10px;
+	}
+	
+.CreatEvent{
+	width: 80%;
+	padding:10px;
+	margin-top:20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: arial;
+	background-color:#E03030;
+	color: white;
+	box-shadow:0px 5px 10px grey;
+	display: block;
+	text-decoration: none;
+	}
+	
+.LearnMore{
+	width: 80%;
+	padding:10px;
+	margin-top:20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: arial;
+	background-color:#681870;
+	color: white;
+	box-shadow:0px 5px 10px grey;
+	display: block;
+	text-decoration: none;
+	}
+
+#EventpadyBodyPic img{
+	width:100%;
+	height:350px;
+	}
+	
+#EventpadyBodyText{
+	background: linear-gradient( to right,#980858, #B00060, #D81840); 
+	width:100%;
+	margin-bottom:20px;
+	padding-bottom: 20px;
+	}
+	
+#EventpadyBodyText h2{
+	color: white;
+	padding:3%;
+	text-align: center;
+}
+	
+.firstheading{
+	width:100%;
+	margin-bottom:20px;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	}
+	
+.mainheading{
+	width:100%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:20px;
+	font-family: arial;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	}
+	
+.WordsAboutEventPady{
+	width:100%;
+	margin-left:0%;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	}
+
+.learnMore{
+	background-color: rgb(0,0,0,0.8);
+	color: white;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px;
+	text-align: center;
+	box-shadow:0px 5px 10px 5px rgba(5,5,5,0.3);
+	margin-bottom:100px;
+	display: block;
+	text-decoration: none;
+	}
+	
+#FindEvent{
+	width:100%;
+	box-sizing: border-box;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:20px;
+	margin-bottom:100px;
+	}
+	
+.findanEvent{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-family:arial;
+	text-align: center;
+	}
+	
+#side img{
+	width: 100%;
+	height: 300px;
+}
+
+#picture{
+	position: absolute;
+	background: linear-gradient(#980858, #B00060, #D81840); 
+	color: white;
+	clip-path: circle(49.6% at 94% 50%);
+	height:600px;
+	width:100%;
+}
+	
+#FindeventForm{
+	position: relative;
+	top:-18px;
+	box-shadow: 0px 5px 10px 5px rgba(2,2,2,0.3);
+	background-color: white;
+	display: block;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0px;
+	margin-bottom:300px;
+	padding-bottom:10px;
+	}
+	
+.loc, .loc1, .interet{
+	width:80%;
+	color: grey;
+	margin-left:5%;
+	margin-right:5%;
+	font-family: arial;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	}
+	
+.input1, .input2{
+	position: relative;
+	width:80%;
+	height:40px;
+	margin-top:10px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10px;
+	cursor: pointer;
+	}
+	
+.fa-search{
+	position: absolute;
+	top:65px;
+	right:15%;
+}
+
+.fa-map-marker-alt{
+	position: absolute;
+	top:165px;
+	right:15%;
+}
+	
+#select{
+	display: block;
+	width:80%;
+	height:30px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+	
+.searchButton{
+	background: linear-gradient( to right,#980858, #B00060, #D81840);
+	color: white;
+	border:0px;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	box-shadow:0px 5px 10px grey;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding:10px;
+	display: block;
+	text-decoration: none;
+	}
+	
+	
+	
+	
+.RecentEvent{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align: center;
+	}
+	
+	
+	
+#CreativConnect{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	padding-bottom: 20px;
+	}
+	
+#CreativConnectImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1559160751_ccevent.jpg");
+	width:100%;
+	height:150px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+	
+.CreativeConnect{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.CreativconnLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+
+#dateInd{
+	width:40%;
+	background:#E03030;
+	color: white;
+	border-radius:5px 5px 5px 5px;
+	padding:0px;
+	text-align: center;
+	position: relative;
+	top:110px;
+	font-size:10px;
+}
+	
+#register{
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:1%;
+	padding-right:1%;
+	background:#E03030;
+	color: white;
+	text-align: center;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:0px 5px 10px grey;
+	appearance: button;
+	display: block;
+	text-decoration: none;
+	font-size:15px;
+	}
+	
+#register:hover{
+	box-shadow:0px -5px -10px grey;
+}
+
+#UniportInvasion{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	padding-bottom: 20px;
+	}
+	
+#UniportInvasionImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1552726156_1.jpg");
+	width:100%;
+	height:150px;
+	background-size: 100% 40vh;
+	background-repeat: no-repeat;
+}
+
+.uniportInvasion{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.uniportInvasionLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+
+.uniportSpeech{
+	width:100%;
+	text-align: center;
+	line-height:15px;
+	font-size:12px;
+	margin-bottom:5px;
+}
+	
+
+
+#ComicAdventure{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	padding-bottom: 20px;
+	}
+	
+#ComicAdventureImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1552520366_comic.jpg");
+	width:100%;
+	height:150px;
+	background-size: 100% auto;
+}
+	
+.comicAdventure{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.ComicAdLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.comicSpeech{
+	width:100%;
+	line-height:15px;
+	font-size:12px;
+	text-align: center;
+	margin-bottom:5px;
+}
+	
+	
+#ForexTraf{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	padding-bottom: 20px;
+	}
+	
+	
+#ForexTrafImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1551306608_forex.jpg");
+	width:100%;
+	height:150px;
+	background-size: contain;
+}
+	
+.forexTrad{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.ForexTradLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.forexSpeech{
+	width:100%;
+	line-height:15px;
+	font-size:12px;
+	text-align: center;
+	margin-bottom:5px;
+}
+	
+
+#CoinFest{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px grey;
+	padding-bottom: 20px;
+	}
+	
+#CoinFestImg{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://eventpady.com/public/event/banner/1551305081_coinfest.jpg");
+	background-size: contain;
+	width:100%;
+	height:150px;
+}
+	
+.coinFest{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: arial;
+	text-align: center;
+	font-size:15px;
+	line-height: 15px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.coinFestLocation{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	text-align: center;
+	font-family: arial;
+	font-size:15px;
+	line-height:17px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+	
+.coinSpeech{
+	width:100%;
+	line-height:15px;
+	font-size:12px;
+	text-align: center;
+	margin-bottom:5px;
+}
+	
+
+
+#CreateInMins{
+	background: linear-gradient( to right,#980858, #B00060, #D81840); 
+	width:100%;
+	height:100px;
+	}
+	
+.create{
+	width:100%;
+	color: white;
+	text-align: center;
+	font-family:arial;
+}
+	
+.createBox{
+	border:3px solid white;
+	background-color: black;
+	color: white;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	text-align: center;
+	font-family:arial;
+	box-shadow:0px 5px 10px rgba(2,2,2,0.3);
+	padding:10px;
+	display: block;
+	text-decoration: none;
+	}
+	
+#SearchFavourite{
+	background: linear-gradient( to right,#980858, #B00060, #D81840); 
+	width:100%;
+	height:100px;
+	margin-top:20px;
+	font-family:arial;
+	}
+	
+.FavEvent{
+	width:100%;
+	color: white;
+	text-align: center;
+	font-family:arial;
+}
+	
+.FavEventBox{
+	border:3px solid white;
+	background-color: black;
+	color: white;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	text-align: center;
+	font-family:arial;
+	box-shadow:0px 5px 10px grey;
+	padding:10px;
+	display: block;
+	text-decoration: none;
+	}
+	
+#EventManager{
+	background-color:#E03030;
+	color: white;
+	width:100%;
+	padding-bottom:30px;
+	margin-top:20px;
+	text-align: center;
+	font-family:arial;
+	}
+	
+.eventManager{
+	width:100%;
+	text-align: center;
+	font-family:arial;
+	font-weight: bolder;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+	
+.eventManText{
+	width:100%;
+	text-align: center;
+	font-family:arial;
+	line-height:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+	
+.learnMoore{
+	background-color: white;
+	color:#E03030;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	box-shadow:0px 5px 10px rgba(2,2,2,0.3);
+	padding:10px;
+	display: block;
+	text-decoration: none;
+	}
+	
+	
+
+#footer{
+	background-color: rgba(0,0,0,1);
+	width:100%;
+	font-family:arial;
+	padding-top:100px;
+	}
+	
+#footer img{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	height: 50px;
+}
+
+.followus{
+	width:100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding-top:100px;
+	padding-bottom:30px;
+	font-size:15px;
+}
+
+.FollowUs{
+	width:100%;
+	background-color: black;
+	display: flex;
+}
+	
+
+.fb{
+	width:33%;
+}
+
+.fa-facebook-f{
+	border-radius:50%;
+	background-color: blue;
+	color: white;
+	padding:10px;
+	margin-left:0%;
+	
+}
+
+.tw{
+	width:33%;
+}
+
+.fa-twitter{
+	border-radius:50%;
+	background-color: skyblue;
+	color: white;
+	padding:10px;
+	margin-left:35%;
+}
+
+.ig{
+	width:33%;	
+}
+
+.fa-instagram{
+	border-radius:50%;
+	background-color: #B00060;
+	color: white;
+	padding:10px;
+	margin-left:70%;
+}
+
+
+#Newsletter{
+	width:100%;
+}
+
+.NewsLet{
+	width:100%;
+	color:white;
+	text-align: center;
+	background-color: black;
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:0px;
+	font-size:15px;
+}
+
+#input{
+	position: relative;
+	padding-top:10px;
+	background-color: black;
+}
+
+.fa-envelope{
+	position: absolute;
+	top:22px;
+	right:23%;
+	display: inline;
+	color: white;
+}
+
+.newslet{
+	height:40px;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom:50px;
+	width:60%;
+	background-color: grey;
+	border:0px;
+	color: white;
+	cursor: pointer;
+}
+
+::placeholder{
+	color: white;
+	padding:10px;
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
